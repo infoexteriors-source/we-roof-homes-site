@@ -1,0 +1,33 @@
+{
+  "name": "weroof-homes",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0",
+    "build": "next build",
+    "start": "next start --hostname 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "studio": "sanity dev",
+    "test:browser": "node scripts/verify.mjs"
+  },
+  "dependencies": {
+    "@sanity/client": "^7.0.0",
+    "next": "16.3.5",
+    "pdf-lib": "^1.17.1",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "sanity": "^6.15.0",
+    "styled-components": "^6.1.19",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.11.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "playwright-core": "^1.58.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}

@@ -1,0 +1,13 @@
+.firecrawl/
+node_modules/
+.next/
+.env*
+!.env.example
+.vercel/
+artifacts/
+*.tsbuildinfo
+.DS_Store
+output/
+tmp/
+.claude/
+.vercel

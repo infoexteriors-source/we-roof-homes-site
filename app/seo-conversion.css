@@ -1,0 +1,64 @@
+/* Audit pass (Sep 2026): keyword-bearing hero H1, urgent call path, persistent desktop phone. */
+.hero-copy h1 .hero-kicker {
+  display: flex;
+  align-items: center;
+  margin: 0 0 24px;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: oklch(0.9 0.006 25);
+}
+.hero-urgent {
+  margin: 22px 0 0;
+  font-size: 15px;
+  color: oklch(0.9 0.006 25);
+}
+.hero-urgent a {
+  font-weight: 600;
+  color: var(--paper);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+  white-space: nowrap;
+}
+.hero-urgent a:hover { text-decoration-thickness: 2px; }
+
+.nav-phone {
+  display: none;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-shrink: 0;
+  margin-left: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+}
+.nav-phone span {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+.nav-phone:hover { color: var(--red); }
+@media (min-width: 1550px) {
+  .nav-phone { display: flex; }
+}
+.breadcrumbs [aria-current="page"] { color: var(--ink); }
+@media (max-width: 650px) {
+  .hero-copy h1 .hero-kicker { margin-bottom: 18px; font-size: 10px; }
+  .hero-urgent { margin-top: 16px; font-size: 14px; }
+}
+.page-hero h1 .page-kicker {
+  display: block;
+  margin-bottom: 16px;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--ink);
+}

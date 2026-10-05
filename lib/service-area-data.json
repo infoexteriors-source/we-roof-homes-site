@@ -1,0 +1,1902 @@
+{
+  "checkedAt": "2026-09-22T18:54:37.004Z",
+  "origin": {
+    "label": "Downtown Bethesda (Bethesda Metro area)",
+    "lat": 38.9842769,
+    "lon": -77.0944225
+  },
+  "maxDriveSeconds": 3600,
+  "totalChecked": 536,
+  "places": [
+    {
+      "id": "2400250",
+      "name": "Accokeek",
+      "slug": "accokeek-md",
+      "type": "community",
+      "estimatedMinutes": 56,
+      "seconds": 3374,
+      "lat": 38.675241,
+      "lon": -77.000383
+    },
+    {
+      "id": "2400350",
+      "name": "Adamstown",
+      "slug": "adamstown-md",
+      "type": "community",
+      "estimatedMinutes": 56,
+      "seconds": 3360,
+      "lat": 39.307001,
+      "lon": -77.469296
+    },
+    {
+      "id": "2400400",
+      "name": "Adelphi",
+      "slug": "adelphi-md",
+      "type": "community",
+      "estimatedMinutes": 19,
+      "seconds": 1121,
+      "lat": 38.997212,
+      "lon": -76.966907
+    },
+    {
+      "id": "2401450",
+      "name": "Andrews AFB",
+      "slug": "andrews-afb-md",
+      "type": "community",
+      "estimatedMinutes": 48,
+      "seconds": 2873,
+      "lat": 38.809805,
+      "lon": -76.869158
+    },
+    {
+      "id": "2401600",
+      "name": "Annapolis",
+      "slug": "annapolis-md",
+      "type": "municipality",
+      "estimatedMinutes": 54,
+      "seconds": 3231,
+      "lat": 38.97216,
+      "lon": -76.505334
+    },
+    {
+      "id": "2401635",
+      "name": "Annapolis Neck",
+      "slug": "annapolis-neck-md",
+      "type": "community",
+      "estimatedMinutes": 58,
+      "seconds": 3491,
+      "lat": 38.937589,
+      "lon": -76.497374
+    },
+    {
+      "id": "2401975",
+      "name": "Arbutus",
+      "slug": "arbutus-md",
+      "type": "community",
+      "estimatedMinutes": 49,
+      "seconds": 2954,
+      "lat": 39.242673,
+      "lon": -76.692133
+    },
+    {
+      "id": "2402025",
+      "name": "Arden on the Severn",
+      "slug": "arden-on-the-severn-md",
+      "type": "community",
+      "estimatedMinutes": 60,
+      "seconds": 3580,
+      "lat": 39.06771,
+      "lon": -76.596488
+    },
+    {
+      "id": "2402275",
+      "name": "Arnold",
+      "slug": "arnold-md",
+      "type": "community",
+      "estimatedMinutes": 58,
+      "seconds": 3467,
+      "lat": 39.043158,
+      "lon": -76.505107
+    },
+    {
+      "id": "2402762",
+      "name": "Ashton-Sandy Spring",
+      "slug": "ashton-sandy-spring-md",
+      "type": "community",
+      "estimatedMinutes": 31,
+      "seconds": 1857,
+      "lat": 39.148685,
+      "lon": -76.999085
+    },
+    {
+      "id": "2402825",
+      "name": "Aspen Hill",
+      "slug": "aspen-hill-md",
+      "type": "community",
+      "estimatedMinutes": 20,
+      "seconds": 1215,
+      "lat": 39.093511,
+      "lon": -77.082076
+    },
+    {
+      "id": "2403800",
+      "name": "Ballenger Creek",
+      "slug": "ballenger-creek-md",
+      "type": "community",
+      "estimatedMinutes": 50,
+      "seconds": 3019,
+      "lat": 39.381131,
+      "lon": -77.420179
+    },
+    {
+      "id": "2404000",
+      "name": "Baltimore",
+      "slug": "baltimore-md",
+      "type": "municipality",
+      "estimatedMinutes": 55,
+      "seconds": 3307,
+      "lat": 39.300061,
+      "lon": -76.610518
+    },
+    {
+      "id": "2404050",
+      "name": "Baltimore Highlands",
+      "slug": "baltimore-highlands-md",
+      "type": "community",
+      "estimatedMinutes": 52,
+      "seconds": 3114,
+      "lat": 39.235932,
+      "lon": -76.637402
+    },
+    {
+      "id": "2404475",
+      "name": "Barnesville",
+      "slug": "barnesville-md",
+      "type": "municipality",
+      "estimatedMinutes": 45,
+      "seconds": 2714,
+      "lat": 39.223802,
+      "lon": -77.376169
+    },
+    {
+      "id": "2404650",
+      "name": "Bartonsville",
+      "slug": "bartonsville-md",
+      "type": "community",
+      "estimatedMinutes": 55,
+      "seconds": 3317,
+      "lat": 39.388795,
+      "lon": -77.352961
+    },
+    {
+      "id": "2406400",
+      "name": "Beltsville",
+      "slug": "beltsville-md",
+      "type": "community",
+      "estimatedMinutes": 23,
+      "seconds": 1370,
+      "lat": 39.039903,
+      "lon": -76.920443
+    },
+    {
+      "id": "2406925",
+      "name": "Berwyn Heights",
+      "slug": "berwyn-heights-md",
+      "type": "municipality",
+      "estimatedMinutes": 23,
+      "seconds": 1386,
+      "lat": 38.992854,
+      "lon": -76.913451
+    },
+    {
+      "id": "2407125",
+      "name": "Bethesda",
+      "slug": "bethesda-md",
+      "type": "community",
+      "estimatedMinutes": 6,
+      "seconds": 357,
+      "lat": 38.987292,
+      "lon": -77.118612
+    },
+    {
+      "id": "2407850",
+      "name": "Bladensburg",
+      "slug": "bladensburg-md",
+      "type": "municipality",
+      "estimatedMinutes": 29,
+      "seconds": 1717,
+      "lat": 38.941622,
+      "lon": -76.927838
+    },
+    {
+      "id": "2408775",
+      "name": "Bowie",
+      "slug": "bowie-md",
+      "type": "municipality",
+      "estimatedMinutes": 37,
+      "seconds": 2230,
+      "lat": 38.954703,
+      "lon": -76.738834
+    },
+    {
+      "id": "2409100",
+      "name": "Braddock Heights",
+      "slug": "braddock-heights-md",
+      "type": "community",
+      "estimatedMinutes": 57,
+      "seconds": 3450,
+      "lat": 39.409522,
+      "lon": -77.493564
+    },
+    {
+      "id": "2409325",
+      "name": "Brandywine",
+      "slug": "brandywine-md",
+      "type": "community",
+      "estimatedMinutes": 58,
+      "seconds": 3452,
+      "lat": 38.682795,
+      "lon": -76.884463
+    },
+    {
+      "id": "2409500",
+      "name": "Brentwood",
+      "slug": "brentwood-md",
+      "type": "municipality",
+      "estimatedMinutes": 24,
+      "seconds": 1438,
+      "lat": 38.943883,
+      "lon": -76.957046
+    },
+    {
+      "id": "2410150",
+      "name": "Brock Hall",
+      "slug": "brock-hall-md",
+      "type": "community",
+      "estimatedMinutes": 51,
+      "seconds": 3069,
+      "lat": 38.855852,
+      "lon": -76.742435
+    },
+    {
+      "id": "2410225",
+      "name": "Brookeville",
+      "slug": "brookeville-md",
+      "type": "municipality",
+      "estimatedMinutes": 31,
+      "seconds": 1873,
+      "lat": 39.182514,
+      "lon": -77.059725
+    },
+    {
+      "id": "2410475",
+      "name": "Brooklyn Park",
+      "slug": "brooklyn-park-md",
+      "type": "community",
+      "estimatedMinutes": 55,
+      "seconds": 3300,
+      "lat": 39.2195,
+      "lon": -76.620921
+    },
+    {
+      "id": "2410500",
+      "name": "Brookmont",
+      "slug": "brookmont-md",
+      "type": "community",
+      "estimatedMinutes": 14,
+      "seconds": 866,
+      "lat": 38.953831,
+      "lon": -77.12902
+    },
+    {
+      "id": "2410737",
+      "name": "Brown Station",
+      "slug": "brown-station-md",
+      "type": "community",
+      "estimatedMinutes": 45,
+      "seconds": 2684,
+      "lat": 38.85046,
+      "lon": -76.785471
+    },
+    {
+      "id": "2411050",
+      "name": "Buckeystown",
+      "slug": "buckeystown-md",
+      "type": "community",
+      "estimatedMinutes": 52,
+      "seconds": 3126,
+      "lat": 39.324138,
+      "lon": -77.428135
+    },
+    {
+      "id": "2411550",
+      "name": "Burnt Mills",
+      "slug": "burnt-mills-md",
+      "type": "community",
+      "estimatedMinutes": 15,
+      "seconds": 928,
+      "lat": 39.033984,
+      "lon": -76.998272
+    },
+    {
+      "id": "2411750",
+      "name": "Burtonsville",
+      "slug": "burtonsville-md",
+      "type": "community",
+      "estimatedMinutes": 30,
+      "seconds": 1796,
+      "lat": 39.123765,
+      "lon": -76.933865
+    },
+    {
+      "id": "2412075",
+      "name": "Cabin John",
+      "slug": "cabin-john-md",
+      "type": "community",
+      "estimatedMinutes": 12,
+      "seconds": 746,
+      "lat": 38.974014,
+      "lon": -77.163841
+    },
+    {
+      "id": "2412350",
+      "name": "Calverton",
+      "slug": "calverton-md",
+      "type": "community",
+      "estimatedMinutes": 23,
+      "seconds": 1351,
+      "lat": 39.058085,
+      "lon": -76.950848
+    },
+    {
+      "id": "2412600",
+      "name": "Camp Springs",
+      "slug": "camp-springs-md",
+      "type": "community",
+      "estimatedMinutes": 46,
+      "seconds": 2767,
+      "lat": 38.80491,
+      "lon": -76.918321
+    },
+    {
+      "id": "2413000",
+      "name": "Capitol Heights",
+      "slug": "capitol-heights-md",
+      "type": "municipality",
+      "estimatedMinutes": 36,
+      "seconds": 2176,
+      "lat": 38.87492,
+      "lon": -76.879575
+    },
+    {
+      "id": "2414125",
+      "name": "Catonsville",
+      "slug": "catonsville-md",
+      "type": "community",
+      "estimatedMinutes": 47,
+      "seconds": 2822,
+      "lat": 39.264164,
+      "lon": -76.742442
+    },
+    {
+      "id": "2414550",
+      "name": "Cedar Heights",
+      "slug": "cedar-heights-md",
+      "type": "community",
+      "estimatedMinutes": 35,
+      "seconds": 2085,
+      "lat": 38.903738,
+      "lon": -76.905879
+    },
+    {
+      "id": "2416550",
+      "name": "Cheverly",
+      "slug": "cheverly-md",
+      "type": "municipality",
+      "estimatedMinutes": 30,
+      "seconds": 1789,
+      "lat": 38.925931,
+      "lon": -76.913468
+    },
+    {
+      "id": "2416620",
+      "name": "Chevy Chase (town)",
+      "slug": "chevy-chase-town-md",
+      "type": "municipality",
+      "estimatedMinutes": 4,
+      "seconds": 249,
+      "lat": 38.981893,
+      "lon": -77.083197
+    },
+    {
+      "id": "2416625",
+      "name": "Chevy Chase (community)",
+      "slug": "chevy-chase-community-md",
+      "type": "community",
+      "estimatedMinutes": 6,
+      "seconds": 340,
+      "lat": 38.993256,
+      "lon": -77.072392
+    },
+    {
+      "id": "2416720",
+      "name": "Chevy Chase Section Five",
+      "slug": "chevy-chase-section-five-md",
+      "type": "municipality",
+      "estimatedMinutes": 5,
+      "seconds": 285,
+      "lat": 38.9839,
+      "lon": -77.073953
+    },
+    {
+      "id": "2416730",
+      "name": "Chevy Chase Section Three",
+      "slug": "chevy-chase-section-three-md",
+      "type": "municipality",
+      "estimatedMinutes": 6,
+      "seconds": 334,
+      "lat": 38.979248,
+      "lon": -77.074209
+    },
+    {
+      "id": "2416775",
+      "name": "Chevy Chase View",
+      "slug": "chevy-chase-view-md",
+      "type": "municipality",
+      "estimatedMinutes": 9,
+      "seconds": 531,
+      "lat": 39.019246,
+      "lon": -77.081175
+    },
+    {
+      "id": "2416787",
+      "name": "Chevy Chase Village",
+      "slug": "chevy-chase-village-md",
+      "type": "municipality",
+      "estimatedMinutes": 6,
+      "seconds": 352,
+      "lat": 38.969764,
+      "lon": -77.079283
+    },
+    {
+      "id": "2416875",
+      "name": "Chillum",
+      "slug": "chillum-md",
+      "type": "community",
+      "estimatedMinutes": 21,
+      "seconds": 1241,
+      "lat": 38.966667,
+      "lon": -76.978885
+    },
+    {
+      "id": "2417350",
+      "name": "Clarksburg",
+      "slug": "clarksburg-md",
+      "type": "community",
+      "estimatedMinutes": 34,
+      "seconds": 2022,
+      "lat": 39.222893,
+      "lon": -77.266079
+    },
+    {
+      "id": "2417900",
+      "name": "Clinton",
+      "slug": "clinton-md",
+      "type": "community",
+      "estimatedMinutes": 52,
+      "seconds": 3105,
+      "lat": 38.742826,
+      "lon": -76.908675
+    },
+    {
+      "id": "2418150",
+      "name": "Cloverly",
+      "slug": "cloverly-md",
+      "type": "community",
+      "estimatedMinutes": 26,
+      "seconds": 1539,
+      "lat": 39.103947,
+      "lon": -76.994829
+    },
+    {
+      "id": "2418475",
+      "name": "Colesville",
+      "slug": "colesville-md",
+      "type": "community",
+      "estimatedMinutes": 22,
+      "seconds": 1305,
+      "lat": 39.07284,
+      "lon": -77.00058
+    },
+    {
+      "id": "2418750",
+      "name": "College Park",
+      "slug": "college-park-md",
+      "type": "municipality",
+      "estimatedMinutes": 21,
+      "seconds": 1284,
+      "lat": 38.996692,
+      "lon": -76.936407
+    },
+    {
+      "id": "2418850",
+      "name": "Colmar Manor",
+      "slug": "colmar-manor-md",
+      "type": "municipality",
+      "estimatedMinutes": 30,
+      "seconds": 1822,
+      "lat": 38.926801,
+      "lon": -76.943876
+    },
+    {
+      "id": "2419125",
+      "name": "Columbia",
+      "slug": "columbia-md",
+      "type": "community",
+      "estimatedMinutes": 39,
+      "seconds": 2332,
+      "lat": 39.201146,
+      "lon": -76.85905
+    },
+    {
+      "id": "2419825",
+      "name": "Coral Hills",
+      "slug": "coral-hills-md",
+      "type": "community",
+      "estimatedMinutes": 39,
+      "seconds": 2320,
+      "lat": 38.872313,
+      "lon": -76.920979
+    },
+    {
+      "id": "2420050",
+      "name": "Cottage City",
+      "slug": "cottage-city-md",
+      "type": "municipality",
+      "estimatedMinutes": 26,
+      "seconds": 1571,
+      "lat": 38.938399,
+      "lon": -76.949445
+    },
+    {
+      "id": "2420875",
+      "name": "Crofton",
+      "slug": "crofton-md",
+      "type": "community",
+      "estimatedMinutes": 46,
+      "seconds": 2773,
+      "lat": 39.014439,
+      "lon": -76.680007
+    },
+    {
+      "id": "2421075",
+      "name": "Crownsville",
+      "slug": "crownsville-md",
+      "type": "community",
+      "estimatedMinutes": 55,
+      "seconds": 3273,
+      "lat": 39.022462,
+      "lon": -76.590377
+    },
+    {
+      "id": "2421475",
+      "name": "Damascus",
+      "slug": "damascus-md",
+      "type": "community",
+      "estimatedMinutes": 46,
+      "seconds": 2734,
+      "lat": 39.270995,
+      "lon": -77.196834
+    },
+    {
+      "id": "2421825",
+      "name": "Darnestown",
+      "slug": "darnestown-md",
+      "type": "community",
+      "estimatedMinutes": 33,
+      "seconds": 1963,
+      "lat": 39.089716,
+      "lon": -77.311388
+    },
+    {
+      "id": "2422775",
+      "name": "Derwood",
+      "slug": "derwood-md",
+      "type": "community",
+      "estimatedMinutes": 24,
+      "seconds": 1442,
+      "lat": 39.114116,
+      "lon": -77.150228
+    },
+    {
+      "id": "2423025",
+      "name": "District Heights",
+      "slug": "district-heights-md",
+      "type": "municipality",
+      "estimatedMinutes": 40,
+      "seconds": 2401,
+      "lat": 38.858871,
+      "lon": -76.888436
+    },
+    {
+      "id": "2424650",
+      "name": "East Riverdale",
+      "slug": "east-riverdale-md",
+      "type": "community",
+      "estimatedMinutes": 26,
+      "seconds": 1534,
+      "lat": 38.959762,
+      "lon": -76.91102
+    },
+    {
+      "id": "2425050",
+      "name": "Edgewater",
+      "slug": "edgewater-md",
+      "type": "community",
+      "estimatedMinutes": 55,
+      "seconds": 3330,
+      "lat": 38.939653,
+      "lon": -76.551401
+    },
+    {
+      "id": "2425425",
+      "name": "Edmonston",
+      "slug": "edmonston-md",
+      "type": "municipality",
+      "estimatedMinutes": 28,
+      "seconds": 1699,
+      "lat": 38.950778,
+      "lon": -76.931177
+    },
+    {
+      "id": "2425750",
+      "name": "Elkridge",
+      "slug": "elkridge-md",
+      "type": "community",
+      "estimatedMinutes": 40,
+      "seconds": 2417,
+      "lat": 39.194624,
+      "lon": -76.741569
+    },
+    {
+      "id": "2426000",
+      "name": "Ellicott City",
+      "slug": "ellicott-city-md",
+      "type": "community",
+      "estimatedMinutes": 46,
+      "seconds": 2744,
+      "lat": 39.275809,
+      "lon": -76.834427
+    },
+    {
+      "id": "2427250",
+      "name": "Fairland",
+      "slug": "fairland-md",
+      "type": "community",
+      "estimatedMinutes": 23,
+      "seconds": 1397,
+      "lat": 39.081374,
+      "lon": -76.952012
+    },
+    {
+      "id": "2427400",
+      "name": "Fairmount Heights",
+      "slug": "fairmount-heights-md",
+      "type": "municipality",
+      "estimatedMinutes": 33,
+      "seconds": 2010,
+      "lat": 38.901591,
+      "lon": -76.915339
+    },
+    {
+      "id": "2427580",
+      "name": "Fairwood",
+      "slug": "fairwood-md",
+      "type": "community",
+      "estimatedMinutes": 37,
+      "seconds": 2193,
+      "lat": 38.954713,
+      "lon": -76.776544
+    },
+    {
+      "id": "2428075",
+      "name": "Ferndale",
+      "slug": "ferndale-md",
+      "type": "community",
+      "estimatedMinutes": 50,
+      "seconds": 2997,
+      "lat": 39.18696,
+      "lon": -76.633107
+    },
+    {
+      "id": "2428512",
+      "name": "Flower Hill",
+      "slug": "flower-hill-md",
+      "type": "community",
+      "estimatedMinutes": 29,
+      "seconds": 1728,
+      "lat": 39.168443,
+      "lon": -77.184443
+    },
+    {
+      "id": "2428640",
+      "name": "Forest Glen",
+      "slug": "forest-glen-md",
+      "type": "community",
+      "estimatedMinutes": 11,
+      "seconds": 683,
+      "lat": 39.018914,
+      "lon": -77.045085
+    },
+    {
+      "id": "2428725",
+      "name": "Forest Heights",
+      "slug": "forest-heights-md",
+      "type": "municipality",
+      "estimatedMinutes": 46,
+      "seconds": 2777,
+      "lat": 38.806535,
+      "lon": -77.012478
+    },
+    {
+      "id": "2429000",
+      "name": "Forestville",
+      "slug": "forestville-md",
+      "type": "community",
+      "estimatedMinutes": 38,
+      "seconds": 2307,
+      "lat": 38.850432,
+      "lon": -76.871552
+    },
+    {
+      "id": "2429400",
+      "name": "Fort Meade",
+      "slug": "fort-meade-md",
+      "type": "community",
+      "estimatedMinutes": 42,
+      "seconds": 2527,
+      "lat": 39.1057,
+      "lon": -76.743278
+    },
+    {
+      "id": "2429525",
+      "name": "Fort Washington",
+      "slug": "fort-washington-md",
+      "type": "community",
+      "estimatedMinutes": 49,
+      "seconds": 2913,
+      "lat": 38.731868,
+      "lon": -77.008662
+    },
+    {
+      "id": "2429790",
+      "name": "Four Corners",
+      "slug": "four-corners-md",
+      "type": "community",
+      "estimatedMinutes": 13,
+      "seconds": 782,
+      "lat": 39.023312,
+      "lon": -77.010204
+    },
+    {
+      "id": "2430325",
+      "name": "Frederick",
+      "slug": "frederick-md",
+      "type": "municipality",
+      "estimatedMinutes": 55,
+      "seconds": 3305,
+      "lat": 39.438528,
+      "lon": -77.411687
+    },
+    {
+      "id": "2430575",
+      "name": "Friendly",
+      "slug": "friendly-md",
+      "type": "community",
+      "estimatedMinutes": 49,
+      "seconds": 2913,
+      "lat": 38.760284,
+      "lon": -76.966952
+    },
+    {
+      "id": "2430800",
+      "name": "Friendship Heights Village",
+      "slug": "friendship-heights-village-md",
+      "type": "community",
+      "estimatedMinutes": 5,
+      "seconds": 309,
+      "lat": 38.963311,
+      "lon": -77.089792
+    },
+    {
+      "id": "2431025",
+      "name": "Fulton",
+      "slug": "fulton-md",
+      "type": "community",
+      "estimatedMinutes": 34,
+      "seconds": 2026,
+      "lat": 39.153098,
+      "lon": -76.911548
+    },
+    {
+      "id": "2431175",
+      "name": "Gaithersburg",
+      "slug": "gaithersburg-md",
+      "type": "municipality",
+      "estimatedMinutes": 25,
+      "seconds": 1515,
+      "lat": 39.148601,
+      "lon": -77.195131
+    },
+    {
+      "id": "2431350",
+      "name": "Gambrills",
+      "slug": "gambrills-md",
+      "type": "community",
+      "estimatedMinutes": 52,
+      "seconds": 3094,
+      "lat": 39.092835,
+      "lon": -76.651133
+    },
+    {
+      "id": "2431525",
+      "name": "Garrett Park",
+      "slug": "garrett-park-md",
+      "type": "municipality",
+      "estimatedMinutes": 11,
+      "seconds": 664,
+      "lat": 39.036067,
+      "lon": -77.093466
+    },
+    {
+      "id": "2432025",
+      "name": "Germantown",
+      "slug": "germantown-md",
+      "type": "community",
+      "estimatedMinutes": 29,
+      "seconds": 1736,
+      "lat": 39.174252,
+      "lon": -77.263754
+    },
+    {
+      "id": "2432350",
+      "name": "Glassmanor",
+      "slug": "glassmanor-md",
+      "type": "community",
+      "estimatedMinutes": 39,
+      "seconds": 2370,
+      "lat": 38.818138,
+      "lon": -76.983152
+    },
+    {
+      "id": "2432650",
+      "name": "Glen Burnie",
+      "slug": "glen-burnie-md",
+      "type": "community",
+      "estimatedMinutes": 54,
+      "seconds": 3251,
+      "lat": 39.156271,
+      "lon": -76.606996
+    },
+    {
+      "id": "2432900",
+      "name": "Glen Echo",
+      "slug": "glen-echo-md",
+      "type": "municipality",
+      "estimatedMinutes": 9,
+      "seconds": 556,
+      "lat": 38.968819,
+      "lon": -77.142094
+    },
+    {
+      "id": "2432500",
+      "name": "Glenarden",
+      "slug": "glenarden-md",
+      "type": "municipality",
+      "estimatedMinutes": 32,
+      "seconds": 1894,
+      "lat": 38.929288,
+      "lon": -76.857688
+    },
+    {
+      "id": "2433250",
+      "name": "Glenmont",
+      "slug": "glenmont-md",
+      "type": "community",
+      "estimatedMinutes": 20,
+      "seconds": 1194,
+      "lat": 39.072378,
+      "lon": -77.046999
+    },
+    {
+      "id": "2433400",
+      "name": "Glenn Dale",
+      "slug": "glenn-dale-md",
+      "type": "community",
+      "estimatedMinutes": 32,
+      "seconds": 1935,
+      "lat": 38.984822,
+      "lon": -76.800517
+    },
+    {
+      "id": "2435412",
+      "name": "Green Valley",
+      "slug": "green-valley-md",
+      "type": "community",
+      "estimatedMinutes": 53,
+      "seconds": 3174,
+      "lat": 39.341832,
+      "lon": -77.240329
+    },
+    {
+      "id": "2434775",
+      "name": "Greenbelt",
+      "slug": "greenbelt-md",
+      "type": "municipality",
+      "estimatedMinutes": 23,
+      "seconds": 1370,
+      "lat": 38.99467,
+      "lon": -76.885399
+    },
+    {
+      "id": "2438025",
+      "name": "Herald Harbor",
+      "slug": "herald-harbor-md",
+      "type": "community",
+      "estimatedMinutes": 59,
+      "seconds": 3538,
+      "lat": 39.051265,
+      "lon": -76.57492
+    },
+    {
+      "id": "2438475",
+      "name": "Highland",
+      "slug": "highland-md",
+      "type": "community",
+      "estimatedMinutes": 42,
+      "seconds": 2507,
+      "lat": 39.187233,
+      "lon": -76.956917
+    },
+    {
+      "id": "2438850",
+      "name": "Hillandale",
+      "slug": "hillandale-md",
+      "type": "community",
+      "estimatedMinutes": 16,
+      "seconds": 974,
+      "lat": 39.026428,
+      "lon": -76.975179
+    },
+    {
+      "id": "2438975",
+      "name": "Hillcrest Heights",
+      "slug": "hillcrest-heights-md",
+      "type": "community",
+      "estimatedMinutes": 41,
+      "seconds": 2446,
+      "lat": 38.836577,
+      "lon": -76.970905
+    },
+    {
+      "id": "2441250",
+      "name": "Hyattsville",
+      "slug": "hyattsville-md",
+      "type": "municipality",
+      "estimatedMinutes": 23,
+      "seconds": 1407,
+      "lat": 38.961205,
+      "lon": -76.954935
+    },
+    {
+      "id": "2441475",
+      "name": "Ilchester",
+      "slug": "ilchester-md",
+      "type": "community",
+      "estimatedMinutes": 43,
+      "seconds": 2589,
+      "lat": 39.21611,
+      "lon": -76.762058
+    },
+    {
+      "id": "2442550",
+      "name": "Jessup",
+      "slug": "jessup-md",
+      "type": "community",
+      "estimatedMinutes": 38,
+      "seconds": 2295,
+      "lat": 39.14832,
+      "lon": -76.776904
+    },
+    {
+      "id": "2443200",
+      "name": "Kemp Mill",
+      "slug": "kemp-mill-md",
+      "type": "community",
+      "estimatedMinutes": 18,
+      "seconds": 1110,
+      "lat": 39.041101,
+      "lon": -77.021995
+    },
+    {
+      "id": "2443500",
+      "name": "Kensington",
+      "slug": "kensington-md",
+      "type": "municipality",
+      "estimatedMinutes": 10,
+      "seconds": 606,
+      "lat": 39.026825,
+      "lon": -77.073745
+    },
+    {
+      "id": "2443900",
+      "name": "Kettering",
+      "slug": "kettering-md",
+      "type": "community",
+      "estimatedMinutes": 40,
+      "seconds": 2405,
+      "lat": 38.889656,
+      "lon": -76.790302
+    },
+    {
+      "id": "2444715",
+      "name": "Konterra",
+      "slug": "konterra-md",
+      "type": "community",
+      "estimatedMinutes": 23,
+      "seconds": 1366,
+      "lat": 39.080797,
+      "lon": -76.899575
+    },
+    {
+      "id": "2444817",
+      "name": "Lake Arbor",
+      "slug": "lake-arbor-md",
+      "type": "community",
+      "estimatedMinutes": 35,
+      "seconds": 2078,
+      "lat": 38.908826,
+      "lon": -76.832307
+    },
+    {
+      "id": "2445325",
+      "name": "Landover",
+      "slug": "landover-md",
+      "type": "community",
+      "estimatedMinutes": 31,
+      "seconds": 1882,
+      "lat": 38.924395,
+      "lon": -76.887604
+    },
+    {
+      "id": "2445400",
+      "name": "Landover Hills",
+      "slug": "landover-hills-md",
+      "type": "municipality",
+      "estimatedMinutes": 29,
+      "seconds": 1716,
+      "lat": 38.942779,
+      "lon": -76.894109
+    },
+    {
+      "id": "2445525",
+      "name": "Langley Park",
+      "slug": "langley-park-md",
+      "type": "community",
+      "estimatedMinutes": 19,
+      "seconds": 1138,
+      "lat": 38.989499,
+      "lon": -76.980742
+    },
+    {
+      "id": "2445550",
+      "name": "Lanham",
+      "slug": "lanham-md",
+      "type": "community",
+      "estimatedMinutes": 30,
+      "seconds": 1820,
+      "lat": 38.962189,
+      "lon": -76.839237
+    },
+    {
+      "id": "2445650",
+      "name": "Lansdowne",
+      "slug": "lansdowne-md",
+      "type": "community",
+      "estimatedMinutes": 47,
+      "seconds": 2834,
+      "lat": 39.23553,
+      "lon": -76.664696
+    },
+    {
+      "id": "2445825",
+      "name": "Largo",
+      "slug": "largo-md",
+      "type": "community",
+      "estimatedMinutes": 35,
+      "seconds": 2126,
+      "lat": 38.883861,
+      "lon": -76.824944
+    },
+    {
+      "id": "2445900",
+      "name": "Laurel",
+      "slug": "laurel-md",
+      "type": "municipality",
+      "estimatedMinutes": 29,
+      "seconds": 1756,
+      "lat": 39.095026,
+      "lon": -76.861096
+    },
+    {
+      "id": "2446150",
+      "name": "Layhill",
+      "slug": "layhill-md",
+      "type": "community",
+      "estimatedMinutes": 22,
+      "seconds": 1316,
+      "lat": 39.089652,
+      "lon": -77.039971
+    },
+    {
+      "id": "2446250",
+      "name": "Laytonsville",
+      "slug": "laytonsville-md",
+      "type": "municipality",
+      "estimatedMinutes": 38,
+      "seconds": 2282,
+      "lat": 39.208854,
+      "lon": -77.135266
+    },
+    {
+      "id": "2446375",
+      "name": "Leisure World",
+      "slug": "leisure-world-md",
+      "type": "community",
+      "estimatedMinutes": 23,
+      "seconds": 1364,
+      "lat": 39.104198,
+      "lon": -77.068933
+    },
+    {
+      "id": "2447125",
+      "name": "Linthicum",
+      "slug": "linthicum-md",
+      "type": "community",
+      "estimatedMinutes": 49,
+      "seconds": 2965,
+      "lat": 39.209381,
+      "lon": -76.664439
+    },
+    {
+      "id": "2447250",
+      "name": "Lisbon",
+      "slug": "lisbon-md",
+      "type": "community",
+      "estimatedMinutes": 54,
+      "seconds": 3234,
+      "lat": 39.336634,
+      "lon": -77.070491
+    },
+    {
+      "id": "2450680",
+      "name": "Marlboro Meadows",
+      "slug": "marlboro-meadows-md",
+      "type": "community",
+      "estimatedMinutes": 53,
+      "seconds": 3197,
+      "lat": 38.841343,
+      "lon": -76.711483
+    },
+    {
+      "id": "2450685",
+      "name": "Marlboro Village",
+      "slug": "marlboro-village-md",
+      "type": "community",
+      "estimatedMinutes": 44,
+      "seconds": 2654,
+      "lat": 38.834902,
+      "lon": -76.768824
+    },
+    {
+      "id": "2450750",
+      "name": "Marlow Heights",
+      "slug": "marlow-heights-md",
+      "type": "community",
+      "estimatedMinutes": 43,
+      "seconds": 2554,
+      "lat": 38.821055,
+      "lon": -76.940864
+    },
+    {
+      "id": "2450775",
+      "name": "Marlton",
+      "slug": "marlton-md",
+      "type": "community",
+      "estimatedMinutes": 57,
+      "seconds": 3448,
+      "lat": 38.761088,
+      "lon": -76.786536
+    },
+    {
+      "id": "2450965",
+      "name": "Martin's Additions",
+      "slug": "martin-s-additions-md",
+      "type": "municipality",
+      "estimatedMinutes": 6,
+      "seconds": 363,
+      "lat": 38.979368,
+      "lon": -77.069278
+    },
+    {
+      "id": "2451075",
+      "name": "Maryland City",
+      "slug": "maryland-city-md",
+      "type": "community",
+      "estimatedMinutes": 35,
+      "seconds": 2088,
+      "lat": 39.101609,
+      "lon": -76.805188
+    },
+    {
+      "id": "2451125",
+      "name": "Maryland Park",
+      "slug": "maryland-park-md",
+      "type": "community",
+      "estimatedMinutes": 35,
+      "seconds": 2116,
+      "lat": 38.889023,
+      "lon": -76.907465
+    },
+    {
+      "id": "2451575",
+      "name": "Mayo",
+      "slug": "mayo-md",
+      "type": "community",
+      "estimatedMinutes": 60,
+      "seconds": 3570,
+      "lat": 38.904169,
+      "lon": -76.513403
+    },
+    {
+      "id": "2451940",
+      "name": "Melwood",
+      "slug": "melwood-md",
+      "type": "community",
+      "estimatedMinutes": 46,
+      "seconds": 2748,
+      "lat": 38.801893,
+      "lon": -76.841624
+    },
+    {
+      "id": "2452425",
+      "name": "Middletown",
+      "slug": "middletown-md",
+      "type": "municipality",
+      "estimatedMinutes": 60,
+      "seconds": 3570,
+      "lat": 39.441325,
+      "lon": -77.535254
+    },
+    {
+      "id": "2452975",
+      "name": "Mitchellville",
+      "slug": "mitchellville-md",
+      "type": "community",
+      "estimatedMinutes": 37,
+      "seconds": 2249,
+      "lat": 38.936922,
+      "lon": -76.808327
+    },
+    {
+      "id": "2453100",
+      "name": "Monrovia",
+      "slug": "monrovia-md",
+      "type": "community",
+      "estimatedMinutes": 52,
+      "seconds": 3102,
+      "lat": 39.359462,
+      "lon": -77.274891
+    },
+    {
+      "id": "2453325",
+      "name": "Montgomery Village",
+      "slug": "montgomery-village-md",
+      "type": "community",
+      "estimatedMinutes": 31,
+      "seconds": 1876,
+      "lat": 39.188512,
+      "lon": -77.205143
+    },
+    {
+      "id": "2453625",
+      "name": "Morningside",
+      "slug": "morningside-md",
+      "type": "municipality",
+      "estimatedMinutes": 41,
+      "seconds": 2450,
+      "lat": 38.826585,
+      "lon": -76.889628
+    },
+    {
+      "id": "2453875",
+      "name": "Mount Airy",
+      "slug": "mount-airy-md",
+      "type": "municipality",
+      "estimatedMinutes": 56,
+      "seconds": 3330,
+      "lat": 39.374693,
+      "lon": -77.153807
+    },
+    {
+      "id": "2454275",
+      "name": "Mount Rainier",
+      "slug": "mount-rainier-md",
+      "type": "municipality",
+      "estimatedMinutes": 24,
+      "seconds": 1419,
+      "lat": 38.942361,
+      "lon": -76.964578
+    },
+    {
+      "id": "2455018",
+      "name": "National Harbor",
+      "slug": "national-harbor-md",
+      "type": "community",
+      "estimatedMinutes": 40,
+      "seconds": 2405,
+      "lat": 38.783463,
+      "lon": -77.010046
+    },
+    {
+      "id": "2455050",
+      "name": "Naval Academy",
+      "slug": "naval-academy-md",
+      "type": "community",
+      "estimatedMinutes": 55,
+      "seconds": 3322,
+      "lat": 38.984784,
+      "lon": -76.482628
+    },
+    {
+      "id": "2455400",
+      "name": "New Carrollton",
+      "slug": "new-carrollton-md",
+      "type": "municipality",
+      "estimatedMinutes": 28,
+      "seconds": 1676,
+      "lat": 38.965596,
+      "lon": -76.877513
+    },
+    {
+      "id": "2456337",
+      "name": "North Bethesda",
+      "slug": "north-bethesda-md",
+      "type": "community",
+      "estimatedMinutes": 12,
+      "seconds": 731,
+      "lat": 39.036732,
+      "lon": -77.120207
+    },
+    {
+      "id": "2456375",
+      "name": "North Brentwood",
+      "slug": "north-brentwood-md",
+      "type": "municipality",
+      "estimatedMinutes": 26,
+      "seconds": 1531,
+      "lat": 38.944806,
+      "lon": -76.950742
+    },
+    {
+      "id": "2456400",
+      "name": "North Chevy Chase",
+      "slug": "north-chevy-chase-md",
+      "type": "municipality",
+      "estimatedMinutes": 6,
+      "seconds": 361,
+      "lat": 39.002048,
+      "lon": -77.074048
+    },
+    {
+      "id": "2456712",
+      "name": "North Kensington",
+      "slug": "north-kensington-md",
+      "type": "community",
+      "estimatedMinutes": 13,
+      "seconds": 755,
+      "lat": 39.039196,
+      "lon": -77.071562
+    },
+    {
+      "id": "2456725",
+      "name": "North Laurel",
+      "slug": "north-laurel-md",
+      "type": "community",
+      "estimatedMinutes": 31,
+      "seconds": 1857,
+      "lat": 39.128761,
+      "lon": -76.853344
+    },
+    {
+      "id": "2456875",
+      "name": "North Potomac",
+      "slug": "north-potomac-md",
+      "type": "community",
+      "estimatedMinutes": 26,
+      "seconds": 1572,
+      "lat": 39.09677,
+      "lon": -77.238503
+    },
+    {
+      "id": "2458300",
+      "name": "Odenton",
+      "slug": "odenton-md",
+      "type": "community",
+      "estimatedMinutes": 49,
+      "seconds": 2958,
+      "lat": 39.066257,
+      "lon": -76.693793
+    },
+    {
+      "id": "2458900",
+      "name": "Olney",
+      "slug": "olney-md",
+      "type": "community",
+      "estimatedMinutes": 25,
+      "seconds": 1525,
+      "lat": 39.14434,
+      "lon": -77.071429
+    },
+    {
+      "id": "2459500",
+      "name": "Oxon Hill",
+      "slug": "oxon-hill-md",
+      "type": "community",
+      "estimatedMinutes": 45,
+      "seconds": 2691,
+      "lat": 38.780456,
+      "lon": -76.969835
+    },
+    {
+      "id": "2460325",
+      "name": "Parole",
+      "slug": "parole-md",
+      "type": "community",
+      "estimatedMinutes": 50,
+      "seconds": 2971,
+      "lat": 38.987941,
+      "lon": -76.552716
+    },
+    {
+      "id": "2460950",
+      "name": "Peppermill Village",
+      "slug": "peppermill-village-md",
+      "type": "community",
+      "estimatedMinutes": 36,
+      "seconds": 2145,
+      "lat": 38.893998,
+      "lon": -76.887694
+    },
+    {
+      "id": "2462850",
+      "name": "Poolesville",
+      "slug": "poolesville-md",
+      "type": "municipality",
+      "estimatedMinutes": 45,
+      "seconds": 2712,
+      "lat": 39.143671,
+      "lon": -77.411647
+    },
+    {
+      "id": "2463300",
+      "name": "Potomac",
+      "slug": "potomac-md",
+      "type": "community",
+      "estimatedMinutes": 18,
+      "seconds": 1057,
+      "lat": 39.013332,
+      "lon": -77.193579
+    },
+    {
+      "id": "2464495",
+      "name": "Queen Anne (community)",
+      "slug": "queen-anne-community-md",
+      "type": "community",
+      "estimatedMinutes": 46,
+      "seconds": 2778,
+      "lat": 38.906356,
+      "lon": -76.70534
+    },
+    {
+      "id": "2464568",
+      "name": "Queensland",
+      "slug": "queensland-md",
+      "type": "community",
+      "estimatedMinutes": 50,
+      "seconds": 2995,
+      "lat": 38.795175,
+      "lon": -76.795549
+    },
+    {
+      "id": "2465312",
+      "name": "Redland",
+      "slug": "redland-md",
+      "type": "community",
+      "estimatedMinutes": 26,
+      "seconds": 1539,
+      "lat": 39.132868,
+      "lon": -77.145448
+    },
+    {
+      "id": "2466400",
+      "name": "Riva",
+      "slug": "riva-md",
+      "type": "community",
+      "estimatedMinutes": 52,
+      "seconds": 3096,
+      "lat": 38.945219,
+      "lon": -76.589928
+    },
+    {
+      "id": "2466635",
+      "name": "Riverdale Park",
+      "slug": "riverdale-park-md",
+      "type": "municipality",
+      "estimatedMinutes": 27,
+      "seconds": 1613,
+      "lat": 38.96646,
+      "lon": -76.926617
+    },
+    {
+      "id": "2467675",
+      "name": "Rockville",
+      "slug": "rockville-md",
+      "type": "municipality",
+      "estimatedMinutes": 17,
+      "seconds": 1021,
+      "lat": 39.083666,
+      "lon": -77.155585
+    },
+    {
+      "id": "2468300",
+      "name": "Rosaryville",
+      "slug": "rosaryville-md",
+      "type": "community",
+      "estimatedMinutes": 50,
+      "seconds": 3023,
+      "lat": 38.767396,
+      "lon": -76.828223
+    },
+    {
+      "id": "2470475",
+      "name": "Savage",
+      "slug": "savage-md",
+      "type": "community",
+      "estimatedMinutes": 36,
+      "seconds": 2168,
+      "lat": 39.146463,
+      "lon": -76.821637
+    },
+    {
+      "id": "2470525",
+      "name": "Scaggsville",
+      "slug": "scaggsville-md",
+      "type": "community",
+      "estimatedMinutes": 33,
+      "seconds": 1970,
+      "lat": 39.140722,
+      "lon": -76.882831
+    },
+    {
+      "id": "2470775",
+      "name": "Seabrook",
+      "slug": "seabrook-md",
+      "type": "community",
+      "estimatedMinutes": 29,
+      "seconds": 1756,
+      "lat": 38.981983,
+      "lon": -76.850884
+    },
+    {
+      "id": "2470850",
+      "name": "Seat Pleasant",
+      "slug": "seat-pleasant-md",
+      "type": "municipality",
+      "estimatedMinutes": 36,
+      "seconds": 2148,
+      "lat": 38.894689,
+      "lon": -76.899451
+    },
+    {
+      "id": "2471150",
+      "name": "Severn",
+      "slug": "severn-md",
+      "type": "community",
+      "estimatedMinutes": 46,
+      "seconds": 2749,
+      "lat": 39.135579,
+      "lon": -76.6956
+    },
+    {
+      "id": "2471200",
+      "name": "Severna Park",
+      "slug": "severna-park-md",
+      "type": "community",
+      "estimatedMinutes": 60,
+      "seconds": 3589,
+      "lat": 39.086633,
+      "lon": -76.564883
+    },
+    {
+      "id": "2472350",
+      "name": "Silver Hill",
+      "slug": "silver-hill-md",
+      "type": "community",
+      "estimatedMinutes": 39,
+      "seconds": 2354,
+      "lat": 38.839954,
+      "lon": -76.938838
+    },
+    {
+      "id": "2472450",
+      "name": "Silver Spring",
+      "slug": "silver-spring-md",
+      "type": "community",
+      "estimatedMinutes": 12,
+      "seconds": 717,
+      "lat": 39.002441,
+      "lon": -77.020791
+    },
+    {
+      "id": "2473350",
+      "name": "Somerset",
+      "slug": "somerset-md",
+      "type": "municipality",
+      "estimatedMinutes": 6,
+      "seconds": 337,
+      "lat": 38.966622,
+      "lon": -77.096239
+    },
+    {
+      "id": "2473600",
+      "name": "South Kensington",
+      "slug": "south-kensington-md",
+      "type": "community",
+      "estimatedMinutes": 11,
+      "seconds": 645,
+      "lat": 39.016149,
+      "lon": -77.066293
+    },
+    {
+      "id": "2473650",
+      "name": "South Laurel",
+      "slug": "south-laurel-md",
+      "type": "community",
+      "estimatedMinutes": 30,
+      "seconds": 1824,
+      "lat": 39.061466,
+      "lon": -76.846194
+    },
+    {
+      "id": "2474050",
+      "name": "Spencerville",
+      "slug": "spencerville-md",
+      "type": "community",
+      "estimatedMinutes": 27,
+      "seconds": 1607,
+      "lat": 39.120024,
+      "lon": -76.983527
+    },
+    {
+      "id": "2474560",
+      "name": "Spring Ridge",
+      "slug": "spring-ridge-md",
+      "type": "community",
+      "estimatedMinutes": 58,
+      "seconds": 3497,
+      "lat": 39.405041,
+      "lon": -77.33988
+    },
+    {
+      "id": "2474282",
+      "name": "Springdale",
+      "slug": "springdale-md",
+      "type": "community",
+      "estimatedMinutes": 32,
+      "seconds": 1894,
+      "lat": 38.935802,
+      "lon": -76.844233
+    },
+    {
+      "id": "2475725",
+      "name": "Suitland",
+      "slug": "suitland-md",
+      "type": "community",
+      "estimatedMinutes": 40,
+      "seconds": 2380,
+      "lat": 38.848615,
+      "lon": -76.922547
+    },
+    {
+      "id": "2475810",
+      "name": "Summerfield",
+      "slug": "summerfield-md",
+      "type": "community",
+      "estimatedMinutes": 33,
+      "seconds": 1955,
+      "lat": 38.904538,
+      "lon": -76.868297
+    },
+    {
+      "id": "2476550",
+      "name": "Sykesville",
+      "slug": "sykesville-md",
+      "type": "municipality",
+      "estimatedMinutes": 60,
+      "seconds": 3595,
+      "lat": 39.372069,
+      "lon": -76.97172
+    },
+    {
+      "id": "2476650",
+      "name": "Takoma Park",
+      "slug": "takoma-park-md",
+      "type": "municipality",
+      "estimatedMinutes": 16,
+      "seconds": 974,
+      "lat": 38.980306,
+      "lon": -77.002326
+    },
+    {
+      "id": "2477100",
+      "name": "Temple Hills",
+      "slug": "temple-hills-md",
+      "type": "community",
+      "estimatedMinutes": 43,
+      "seconds": 2604,
+      "lat": 38.810549,
+      "lon": -76.949477
+    },
+    {
+      "id": "2477262",
+      "name": "Ten Mile Creek",
+      "slug": "ten-mile-creek-md",
+      "type": "community",
+      "estimatedMinutes": 35,
+      "seconds": 2092,
+      "lat": 39.223997,
+      "lon": -77.302282
+    },
+    {
+      "id": "2478650",
+      "name": "Travilah",
+      "slug": "travilah-md",
+      "type": "community",
+      "estimatedMinutes": 25,
+      "seconds": 1510,
+      "lat": 39.059263,
+      "lon": -77.250633
+    },
+    {
+      "id": "2479675",
+      "name": "University Park",
+      "slug": "university-park-md",
+      "type": "municipality",
+      "estimatedMinutes": 24,
+      "seconds": 1425,
+      "lat": 38.971867,
+      "lon": -76.944432
+    },
+    {
+      "id": "2479875",
+      "name": "Upper Marlboro",
+      "slug": "upper-marlboro-md",
+      "type": "municipality",
+      "estimatedMinutes": 46,
+      "seconds": 2789,
+      "lat": 38.815721,
+      "lon": -76.756752
+    },
+    {
+      "id": "2479900",
+      "name": "Urbana",
+      "slug": "urbana-md",
+      "type": "community",
+      "estimatedMinutes": 43,
+      "seconds": 2607,
+      "lat": 39.32577,
+      "lon": -77.341519
+    },
+    {
+      "id": "2481250",
+      "name": "Walker Mill",
+      "slug": "walker-mill-md",
+      "type": "community",
+      "estimatedMinutes": 38,
+      "seconds": 2290,
+      "lat": 38.872293,
+      "lon": -76.893027
+    },
+    {
+      "id": "2481675",
+      "name": "Washington Grove",
+      "slug": "washington-grove-md",
+      "type": "municipality",
+      "estimatedMinutes": 25,
+      "seconds": 1518,
+      "lat": 39.140938,
+      "lon": -77.174056
+    },
+    {
+      "id": "2483025",
+      "name": "West Laurel",
+      "slug": "west-laurel-md",
+      "type": "community",
+      "estimatedMinutes": 32,
+      "seconds": 1928,
+      "lat": 39.115711,
+      "lon": -76.892291
+    },
+    {
+      "id": "2483290",
+      "name": "Westphalia",
+      "slug": "westphalia-md",
+      "type": "community",
+      "estimatedMinutes": 43,
+      "seconds": 2580,
+      "lat": 38.840075,
+      "lon": -76.827152
+    },
+    {
+      "id": "2483775",
+      "name": "Wheaton",
+      "slug": "wheaton-md",
+      "type": "community",
+      "estimatedMinutes": 15,
+      "seconds": 893,
+      "lat": 39.04949,
+      "lon": -77.058209
+    },
+    {
+      "id": "2484375",
+      "name": "White Oak",
+      "slug": "white-oak-md",
+      "type": "community",
+      "estimatedMinutes": 19,
+      "seconds": 1168,
+      "lat": 39.044017,
+      "lon": -76.9868
+    },
+    {
+      "id": "2486475",
+      "name": "Woodlawn (Baltimore County)",
+      "slug": "woodlawn-baltimore-county-md",
+      "type": "community",
+      "estimatedMinutes": 50,
+      "seconds": 2975,
+      "lat": 39.30551,
+      "lon": -76.747803
+    },
+    {
+      "id": "2486525",
+      "name": "Woodlawn (Prince George’s County)",
+      "slug": "woodlawn-prince-george-s-county-md",
+      "type": "community",
+      "estimatedMinutes": 28,
+      "seconds": 1693,
+      "lat": 38.950327,
+      "lon": -76.900261
+    },
+    {
+      "id": "2486710",
+      "name": "Woodmore",
+      "slug": "woodmore-md",
+      "type": "community",
+      "estimatedMinutes": 39,
+      "seconds": 2368,
+      "lat": 38.920545,
+      "lon": -76.775056
+    }
+  ]
+}

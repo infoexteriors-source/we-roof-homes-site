@@ -1,0 +1,41 @@
+/* Native Apple typography, with platform fallbacks and no font downloads. */
+body { -webkit-font-smoothing: antialiased; }
+h1, h2, h3, h4, h5, h6 { font-family: var(--font-body); font-weight: 500; line-height: 1.12; letter-spacing: -0.035em; }
+h2 { font-size: clamp(30px, 3.5vw, 48px); }
+h3 { font-size: 25px; }
+strong, b { font-weight: 600; }
+.eyebrow, .form-kicker, .step-line b { font-weight: 600; }
+.hero-copy h1 { font-size: clamp(42px, 5.1vw, 74px); line-height: 1.04; letter-spacing: -0.045em; font-weight: 500; }
+.hero-offers strong { font-size: 43px; font-weight: 500; letter-spacing: -0.045em; }
+.hero-offers small { font-size: 17px; font-weight: 500; }
+.form-heading h2, .hero-form .form-heading h2 { font-size: 29px; line-height: 1.15; font-weight: 500; }
+.roof-system .section-head h2 { font-size: clamp(30px, 3.5vw, 48px); }
+.roof-reference-explanations h3 { font-weight: 500; }
+.service-row h3, .process-grid h3 { font-size: 25px; }
+.process-section h2, .finance-title h2 { font-size: clamp(32px, 3.5vw, 48px); }
+.finance-offer > strong { font-size: clamp(58px, 7vw, 86px); font-weight: 500; }
+.finance-offer b { font-size: 34px; font-weight: 500; }
+.proof-statement h2 { font-size: clamp(30px, 3.5vw, 44px); }
+.closing-grid h2 { font-size: clamp(36px, 4vw, 56px); line-height: 1.08; }
+.closing-phone { font-size: 27px; }
+.footer h2 { font-size: 25px; }
+.footer h3 { font-weight: 600; }
+.page-hero h1 { font-size: clamp(38px, 5vw, 64px); line-height: 1.1; }
+.content-body h2 { font-size: 30px; }
+.thanks h1 { font-size: clamp(38px, 5vw, 60px); }
+@media (max-width: 900px) {
+  .hero-copy h1 { font-size: 44px; }
+  .hero-offers strong { font-size: 35px; }
+}
+@media (max-width: 650px) {
+  .hero-copy h1 { font-size: clamp(32px, 8.6vw, 44px); line-height: 1.08; }
+  .hero-offers strong { font-size: 37px; }
+  .hero-offers small { font-size: 15px; }
+  .form-heading h2, .hero-form .form-heading h2 { font-size: 27px; }
+  .roof-system .section-head h2 { font-size: 31px; }
+  .roof-reference-explanations h3 { font-size: 25px; }
+  .page-hero h1 { font-size: 38px; }
+  .closing-grid h2 { font-size: 38px; }
+  .closing-phone { font-size: 25px; }
+  .finance-offer > strong { font-size: 62px; }
+}

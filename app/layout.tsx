@@ -13,6 +13,7 @@ import "./seo-conversion.css";
 import "./calculator.css";
 import "./header.css";
 import "./reviews.css";
+import "./brand-kit.css";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {

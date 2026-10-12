@@ -32,6 +32,7 @@ export function LeadForm({
     [error, setError] = useState(""),
     [token, setToken] = useState("");
   const [project, setProject] = useState({ zip: "", service: "" });
+  const [selectedService, setSelectedService] = useState(serviceBySlug[source.split("/").pop() || ""] || "Roof inspection");
   const form = useRef<HTMLFormElement>(null),
     widget = useRef<HTMLDivElement>(null),
     widgetId = useRef<string | null>(null);
@@ -44,8 +45,7 @@ export function LeadForm({
       crypto.randomUUID();
     const p = new URLSearchParams(location.search);
     const requestedService = p.get("service");
-    const serviceInput = f.elements.namedItem("service") as HTMLSelectElement;
-    if (requestedService && options.includes(requestedService) && !serviceInput.value) serviceInput.value = requestedService;
+    if (requestedService && options.includes(requestedService)) setSelectedService(requestedService);
     for (const key of [
       "utm_source",
       "utm_medium",
@@ -103,9 +103,9 @@ export function LeadForm({
     const f = e.currentTarget;
     if (step === 1) {
       const zip = f.elements.namedItem("zip") as HTMLInputElement;
-      const service = f.elements.namedItem("service") as HTMLSelectElement;
-      if (!zip.reportValidity() || !service.reportValidity()) return;
-      setProject({ zip: zip.value, service: service.value });
+      if (!zip.reportValidity()) return;
+      const service = new FormData(f).get("service") as string;
+      setProject({ zip: zip.value, service });
       setStep(2);
       track("form_step_complete", { step: 1, source });
       setTimeout(
@@ -151,12 +151,8 @@ export function LeadForm({
     <div className={`lead-card ${compact ? "compact" : ""}`}>
       <div className="form-heading">
         <span className="form-kicker">LET’S START WITH YOUR HOME</span>
-        <h2>
-          Free inspection.{" "}
-          <br />
-          Real answers.
-        </h2>
-        <p>No pressure. No obligation.</p>
+        <h2>Free inspection. Real answers.</h2>
+        <p>No pressure. No obligation. Takes about 60 seconds.</p>
       </div>
       <form
         ref={form}
@@ -171,6 +167,25 @@ export function LeadForm({
         </div>
         <div className="form-progress" aria-hidden="true"><span /><span className={step === 2 ? "complete" : ""} /></div>
         <div className={step === 2 ? "step-one collapsed-step" : "step-one"}>
+          <fieldset className="service-choices">
+            <legend>What can we help with?</legend>
+            <div className="service-choice-row">
+              {[["Roofing", "Roof inspection"], ["Siding", "Siding"], ["Gutters", "Gutters"]].map(([label, value]) => (
+                <label key={value}>
+                  <input type="radio" name="service" value={value} checked={selectedService === value} onChange={() => setSelectedService(value)} />
+                  <span>{label}</span>
+                </label>
+              ))}
+            </div>
+            <details className="service-more" open={!["Roof inspection", "Siding", "Gutters"].includes(selectedService) || undefined}>
+              <summary>Repair, storm damage or commercial?</summary>
+              <div className="service-choice-extra">
+                {options.filter(x => !["Roof inspection", "Siding", "Gutters"].includes(x)).map(value => (
+                  <label key={value}><input type="radio" name="service" value={value} checked={selectedService === value} onChange={() => setSelectedService(value)} /><span>{value}</span></label>
+                ))}
+              </div>
+            </details>
+          </fieldset>
           <label htmlFor={`${id}-zip`}>
             Property ZIP code
             <input
@@ -183,22 +198,6 @@ export function LeadForm({
               required
               maxLength={5}
             />
-          </label>
-          <label htmlFor={`${id}-service`}>
-            What can we help with?
-            <select
-              id={`${id}-service`}
-              name="service"
-              required
-              defaultValue={serviceBySlug[source.split("/").pop() || ""] || ""}
-            >
-              <option value="" disabled>
-                Select a service
-              </option>
-              {options.map((x) => (
-                <option key={x}>{x}</option>
-              ))}
-            </select>
           </label>
         </div>
         <div className={`step-two ${step === 1 ? "pending-step" : ""}`}>

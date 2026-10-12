@@ -404,7 +404,7 @@ strong {
   font-weight: 600;
   margin: 0 0 14px;
 }
-.lead-card input:not([type="checkbox"]),
+.lead-card input:not([type="checkbox"]):not([type="radio"]),
 .lead-card select {
   width: 100%;
   background: #f1f2ed;
@@ -1584,7 +1584,7 @@ strong {
   .lead-card label {
     font-size: 12px;
   }
-  .lead-card input:not([type="checkbox"]),
+  .lead-card input:not([type="checkbox"]):not([type="radio"]),
   .lead-card select {
     font-size: 16px;
   }

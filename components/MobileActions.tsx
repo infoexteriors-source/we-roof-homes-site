@@ -19,5 +19,5 @@ export function MobileActions() {
     document.querySelectorAll(".lead-card").forEach((form) => observer.observe(form));
     return () => observer.disconnect();
   }, [pathname]);
-  return <div className="mobile-action" hidden={formVisible}><a href={`tel:${business.tel}`}>Call WeRoof</a><Link href="/contact#request-inspection">Free inspection</Link></div>;
+  return <div className="mobile-action" hidden={formVisible}><a href={`tel:${business.tel}`}>Call WeRoof</a><Link href={pathname === "/" ? "/#inspection" : "/contact#request-inspection"}>Free inspection</Link></div>;
 }

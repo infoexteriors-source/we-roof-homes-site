@@ -184,7 +184,7 @@ export function CostCalculator({ service }: { service: CalculatorService }) {
     setAttribution(Object.fromEntries(["utm_source", "utm_medium", "utm_campaign", "gclid", "msclkid"].map((key) => [key, (params.get(key) || "").slice(0, 300)])));
   }, []);
   useEffect(() => {
-    if ((!done && !(service === "roof" && index === -2)) || sent || !process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY) return;
+    if (!done || sent || !process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY) return;
     let stopped = false;
     const mount = () => {
       if (!stopped && widget.current && window.turnstile && !widgetId.current) widgetId.current = window.turnstile.render(widget.current, {
@@ -203,21 +203,6 @@ export function CostCalculator({ service }: { service: CalculatorService }) {
     }
     return () => { stopped = true; if (widgetId.current && window.turnstile) window.turnstile.remove(widgetId.current); widgetId.current = null; };
   }, [done, sent, index, service]);
-
-  async function sendEarlyDetails(event: React.FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-    if (busy) return;
-    setBusy(true); setError("");
-    const website = (event.currentTarget.elements.namedItem("website") as HTMLInputElement).value;
-    try {
-      const response = await fetch("/api/calculator-drafts", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ ...contact, website, submissionId, consent: true, turnstileToken: token }) });
-      const result = await response.json();
-      if (!response.ok || !result.accepted) throw new Error(result.error || "Unable to save your request.");
-      setDraftNotice("WeRoof received your contact details. Complete the questions to request your PDF.");
-      track("calculator_contact_saved", { service }); advance();
-    } catch (cause) { setError(cause instanceof Error ? cause.message : "Unable to send your details. You can still continue below."); }
-    finally { setBusy(false); if (widgetId.current) window.turnstile?.reset(widgetId.current); setToken(""); }
-  }
 
   const choose = (value: string) => {
     if (step.multi) {
@@ -297,18 +282,15 @@ export function CostCalculator({ service }: { service: CalculatorService }) {
         <div className="calc-capture">
           <h2>Make this estimate yours.</h2>
           <p className="calc-capture-intro">Tell us where to send your report. Nothing is emailed until you review and submit.</p>
-          <form className="calc-contact-form" onSubmit={sendEarlyDetails}>
+          <form className="calc-contact-form" onSubmit={(event) => { event.preventDefault(); setError(""); advance(); }}>
             <div className="calc-field-row">
               <label>First name<input required autoComplete="given-name" maxLength={80} value={contact.firstName} onChange={(e) => setContact({ ...contact, firstName: e.target.value })} /></label>
               <label>Phone (optional)<input type="tel" autoComplete="tel" maxLength={40} value={contact.phone} onChange={(e) => setContact({ ...contact, phone: e.target.value })} /></label>
             </div>
             <label>Email for your PDF<input required type="email" autoComplete="email" maxLength={254} placeholder="you@example.com" value={contact.email} onChange={(e) => setContact({ ...contact, email: e.target.value })} /></label>
             <label className="calc-check"><input type="checkbox" checked={saveDraft} onChange={(e) => { setSaveDraft(e.target.checked); if (!e.target.checked) { try { sessionStorage.removeItem(draftKey); } catch {} } }} />Save my progress in this browser tab for up to 24 hours. Avoid this on shared devices.</label>
-            <p className="calc-fine">“Send details & continue” shares your details with WeRoof now for project follow-up, even if you don’t finish. It does not request an email report yet. No SMS or marketing signup. Browser saving is separate and ends when this tab closes. <Link href="/privacy-policy">Privacy policy</Link>.</p>
-            <div className="calc-honeypot" aria-hidden="true"><label>Leave this blank<input name="website" tabIndex={-1} autoComplete="off" /></label></div>
-            <div ref={widget} className="calc-turnstile" />
-            {error && <p className="calc-error" role="alert">{error}</p>}
-            <div className="calc-nav"><button type="button" className="calc-back" onClick={() => { setError(""); setIndex(firstIndex); }}>Back</button><button className="button" type="submit" disabled={busy}>{busy ? "Sending…" : "Send details & continue ↗"}</button><button type="button" className="calc-back" disabled={busy} onClick={() => { setError(""); advance(); }}>Continue without sending yet</button></div>
+            <p className="calc-fine">Your details stay in this browser until you submit your report request at the end. No SMS or marketing signup. <Link href="/privacy-policy">Privacy policy</Link>.</p>
+            <div className="calc-nav"><button type="button" className="calc-back" onClick={() => { setError(""); setIndex(firstIndex); }}>Back</button><button className="button" type="submit">Continue ↗</button></div>
           </form>
         </div>
       ) : service === "roof" && index === -1 ? (

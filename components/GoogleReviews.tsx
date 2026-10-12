@@ -5,7 +5,7 @@ import type { GoogleReviewsResult } from "@/lib/google-reviews";
 
 type FeedState = { status: "loading" } | { status: "unavailable" } | { status: "ready"; data: GoogleReviewsResult };
 
-export function GoogleReviews() {
+export function GoogleReviews({ compact = false }: { compact?: boolean }) {
   const [feed, setFeed] = useState<FeedState>({ status: "loading" });
 
   useEffect(() => {
@@ -21,15 +21,14 @@ export function GoogleReviews() {
   }, []);
 
   if (feed.status === "loading") return <section className="google-reviews" aria-live="polite"><p>Current Google Maps reviews will appear here when available. You can also ask our team for customer references.</p></section>;
-  if (feed.status === "unavailable") return <section className="google-reviews" aria-live="polite"><h2>Customer feedback</h2><p>Live Google Maps reviews are not available here right now. Ask our team for recent, attributable customer references.</p></section>;
+  if (feed.status === "unavailable") return <section className="google-reviews" aria-live="polite">{!compact && <h2>Customer feedback</h2>}<p>Ask our team for recent homeowner references. Live Google reviews are temporarily unavailable.</p></section>;
 
   const { data } = feed;
   return (
-    <section className="google-reviews" aria-labelledby="google-reviews-heading">
+    <section className={`google-reviews ${compact ? "google-reviews-compact" : ""}`} aria-label="Google Maps reviews">
       <div className="google-reviews-head">
         <div>
-          <p className="eyebrow">FROM HOMEOWNERS</p>
-          <h2 id="google-reviews-heading">Reviews on Google Maps</h2>
+          {!compact && <><p className="eyebrow">FROM HOMEOWNERS</p><h2>Reviews on Google Maps</h2></>}
           {data.rating !== undefined && <p className="google-rating"><strong>{data.rating.toFixed(1)}</strong><span className="google-rating-stars" aria-hidden="true">★★★★★</span>{data.count !== undefined && <span>from {data.count.toLocaleString("en-US")} ratings</span>}</p>}
         </div>
         <a className="google-all-link" href={data.placeUrl} target="_blank" rel="noopener noreferrer">See all on <span className="google-maps-attribution" translate="no">Google Maps</span> ↗</a>

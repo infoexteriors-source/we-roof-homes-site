@@ -58,7 +58,7 @@ body { font-size: 16px; }
 .trust-strip b { color: var(--red); }
 .lead-card { border-radius: 6px; box-shadow: 0 16px 48px oklch(0.18 0.005 25 / .09); }
 .lead-card label { font-size: 14px; }
-.lead-card input:not([type="checkbox"]), .lead-card select { font-size: 16px; min-height: 50px; background: var(--paper); border-color: var(--line); border-radius: 4px; }
+.lead-card input:not([type="checkbox"]):not([type="radio"]), .lead-card select { font-size: 16px; min-height: 50px; background: var(--paper); border-color: var(--line); border-radius: 4px; }
 .form-heading p { font-size: 14px; }
 .form-kicker, .step-line { font-size: 11px; }
 .form-progress { display: flex; gap: 6px; margin: -3px 0 20px; }

@@ -103,7 +103,7 @@ export function Header() {
     <>
       <div className="utility">
         <div className="wrap utility-row">
-          <span className="utility-note">MARYLAND HOMES. COVERED.</span>
+          <span className="utility-note">LOCALLY OWNED IN MARYLAND · FREE INSPECTIONS</span>
           <nav className="utility-links" aria-label="Quick links">
             {utilityLinks.map(([label, href]) => <Link href={href} key={href}>{label}</Link>)}
           </nav>
@@ -128,7 +128,8 @@ export function Header() {
             <NavDropdown label="Pricing" items={pricingLinks} active={pricingLinks.some(([, href]) => isActive(pathname, href))} />
             <NavDropdown label="About" items={aboutLinks} active={aboutLinks.some(([, href]) => isActive(pathname, href))} />
           </nav>
-          <Link href="/contact#request-inspection" onClick={() => setOpen(false)} className="button nav-cta">Free inspection <span aria-hidden="true">↗</span></Link>
+          <Link href={pathname === "/" ? "/#inspection" : "/contact#request-inspection"} onClick={() => setOpen(false)} className="button nav-cta">Free inspection <span aria-hidden="true">→</span></Link>
+          <a className="button nav-mobile-call" href={`tel:${business.tel}`}>Call now</a>
           <button ref={toggle} className="menu-toggle" aria-expanded={open} aria-controls="mobile-nav" aria-label={open ? "Close menu" : "Open menu"} onClick={() => setOpen(!open)}>
             {open ? "×" : "☰"}
           </button>
@@ -142,6 +143,8 @@ export function Header() {
             <div className="mobile-nav-secondary">
               {[...utilityLinks, ["Contact us", "/contact"] as const].map(([name, href]) => <Link key={href} href={href} onClick={() => setOpen(false)}>{name}</Link>)}
             </div>
+            <Link className="button mobile-menu-cta" href={pathname === "/" ? "/#inspection" : "/contact#request-inspection"} onClick={() => setOpen(false)}>Get my free inspection →</Link>
+            <a className="mobile-menu-phone" href={`tel:${business.tel}`}>Call {business.phone}</a>
           </nav>
         )}
         <noscript><style>{`.menu-toggle{display:none!important}@media(max-width:1240px){.nav{display:flex!important;flex-wrap:wrap;gap:8px 18px;width:100%;order:3;margin:0;padding-bottom:12px}.nav-row{height:auto!important;min-height:80px;flex-wrap:wrap}.nav a{padding:8px 0}}`}</style></noscript>

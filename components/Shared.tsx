@@ -28,9 +28,9 @@ export function Footer() {
             />
           </Link>
           <h2>
-            Good roofs.
+            Strong roofs.
             <br />
-            Good people.
+            Straight answers.
           </h2>
           <a className="footer-phone" href={`tel:${business.tel}`}>
             {business.phone}
